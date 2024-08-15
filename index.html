@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/final (1).png" type="image/x-icon" />
+    <title>LearnNest</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./images/final (1).png" alt="Educate Logo"></a>
+                <h1>LearnNest</h1> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us-section">About Us</a></li>
+                <li><a href="#courses">Course</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#blog-section">Blog</a></li>
+                <li><a href="#contacts-us-section"">Contact Us</a></li>
+            </ul>
+            <div class="contact-us">
+                <a href="teacher_dashboard.html" class="contact-btn">Become A Teacher</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Learn New Skills Online with Top <span>Educators</span>.</h1>
+                <p>We are experienced in educational platforms and skilled strategies for the success of our online learning.</p>
+                <div class="cta-buttons">
+                    <a href="#courses" class="find-course-btn">Find The Course</a>
+                    <div class="happy-students">
+                        <a href="#review-section"><span>Happy Students</span></a>
+                        <div class="students-avatars">
+                            <img src="./images/xhero-3-client-img.png.pagespeed.ic.Qap-rAkxql.png" alt="Student 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/hero-3-img.png" alt="Girl with Laptop">
+            </div>
+        </section>
+
+        <!-- <section id="about-us-section" class="about-us-section">
+            <div class="about-us-content">
+                <div class="about-us-image">
+                    <img src="./images/about-3-img.png" alt="Woman with Laptop">
+                </div>
+                <div class="about-us-text">
+                    <h1 class="title">ABOUT US</h1>
+                    <hr>
+                    <h2>Benefit From Our Online Learning Expertise Earn <br><span>Professional</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h3>Our Mission:</h3>
+                            <p>Suspendisse ultrice gravida dictum fusce placerat ultricies integer quis auctor elit sed vulputate mi sit.</p>
+                        </div>
+                        <div class="vision">
+                            <h3>Our Vision:</h3>
+                            <p>Suspendisse ultrice gravida dictum fusce placerat ultricies integer quis auctor elit sed vulputate mi sit.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="admission-btn">Admission Open</a>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="about-us-section" class="about-us-section">
+            <div class="about-us-content">
+                <div class="about-us-image">
+                    <img src="./images/about-3-img.png" alt="Woman with Laptop">
+                </div>
+                <div class="about-us-text">
+                    <h1 class="title">ABOUT US</h1>
+                    <hr>
+                    <h2>Leverage Our Expertise in Online Learning to Achieve <br><span>Professional Success</span></h2>
+                    <p>At our platform, we are committed to empowering learners worldwide by providing high-quality online courses designed by top educators. Our mission is to make education accessible, engaging, and tailored to your career goals.</p>
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h3>Our Mission:</h3>
+                            <p>To deliver an exceptional online learning experience that fosters personal and professional growth. We aim to bridge the gap between education and practical skills, ensuring our learners excel in their respective fields.</p>
+                        </div>
+                        <div class="vision">
+                            <h3>Our Vision:</h3>
+                            <p>We envision a world where education transcends traditional boundaries, enabling learners to unlock their full potential and contribute meaningfully to society. Our goal is to be the leading platform for transformative learning experiences.</p>
+                        </div>
+                    </div>
+                    <a href="#courses" class="admission-btn">Admission Open</a>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <!-- Courses section  -->
+        <section id="courses" class="courses-section ">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Join Our World Class Best Courses</h2>
+                    <p>Explore world-class courses designed to help you excel. Discover your path to success with our expertly crafted programs.</p>
+                    <!-- <a href="#" class="btn view-all-courses">View All Course</a> -->
+                </div>
+                
+                <div class="filter-container">
+                    <label for="department-filter">Filter by Department:</label>
+                    <select id="department-filter">
+                        <option value="">All Departments</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Design">UX/UI Design</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        
+                    </select>
+                </div>
+
+                <div id="course-list" class="course-cards">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- abin  -->
+        <section>
+        <div class="section-container">
+            <div class="text-content">
+                <p class="top-label">TOP POPULAR COURSE</p>
+                <h1 class="main-title">
+                    Our Classroom Is A Very Different <span>School</span> Than All The Others
+                </h1>
+                <p class="description">
+                    Join our online courses and discover new skills, improve your knowledge, and achieve your educational goals with the guidance of top instructors.
+                </p>
+                <div class="progress-bars">
+                    <div class="progress-item">
+                        <p>Case study success</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <p>Happy student</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 82%;"></div>
+                            <span>82%</span>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <p>Engaging</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%;"></div>
+                            <span>65%</span>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <p>Student Community</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 98%;"></div>
+                            <span>98%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="./images/value-1 (1).jpg" alt="Student">
+                <div class="play-button">
+                    <!-- <i class="play-icon">&#9654;</i> -->
+                     
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- abin  -->
+
+         <!-- Services section -->
+         <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Explore the range of services we offer to enhance your learning experience.</p>
+                </div>
+                <div class="services-slider">
+                    
+                </div>
+                <button class="slider-prev">&lt;</button>
+                <button class="slider-next">&gt;</button>
+            </div>
+        </section>
+
+
+       <!--team section  -->
+       <section id="team" class="team-section">
+        <div class="container">
+            <h1 class="ins">▶▶ Instructor ◀◀</h1>
+            <h2 class="section-title">Meet Our Expert Instructor</h2>
+            <div id="instructors" class="instructors-container">
+                
+            </div>
+        </div>
+    </section>
+    
+
+        
+        <!-- Blog  -->
+
+        <section id="blog-section" class="blog-section">
+            <div class="container">
+                <h1 class="section-title">Check Out Our Latest LearnNest Features</h1>
+                <p class="section-subtitle">Stay updated with the latest insights and trends from our experts</p>
+                <!-- <a href="#" class="all-posts-link">All Blog Posts</a> -->
+                <div id="blog-container" class="blog-cards-container">
+                    <!-- Blog posts will be dynamically injected here -->
+                </div>
+            </div>
+        </section>
+         
+        
+        <section class="newsletter-section">
+            <div class="container">
+                <h2>Subscribe to our newsletter, We don't make any spam.</h2>
+                <p>Stay updated with the latest news and insights. Join our community today!</p>
+                <form class="newsletter-form" onsubmit="sendEmail(event)">
+                    <input type="email" id="emailInput" placeholder="Enter Your Email Address" required>
+                    <button type="submit">
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+        
+
+        <!-- review  -->
+        <section id="review-section" class="custom-review-section">
+            <div class="custom-review-container">
+                <h2 class="custom-section-title">Student Reviews</h2>
+                <div id="review-cards" class="custom-review-card-container">
+                    <!-- Review cards will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Contact us  -->
+
+        <!-- <section id="contact-us-section" class="contact-us-section">
+            
+            <div class="container">
+                
+                <h1 class="ch">Contact Us</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="problem">Problem:</label>
+                        <textarea id="problem" name="problem" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+            
+        </section> -->
+
+        <section id="contacts-us-section" class="unique-body">
+            <div class="unique-contact-container">
+              <h2>Contact Us</h2>
+              <form id="uniqueContactForm" onsubmit="sendEmail(event)">
+                <div class="unique-input-group">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                  </svg>
+                  <input type="text" id="uniqueName" placeholder="Your Name" required>
+                </div>
+                <div class="unique-input-group">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                  </svg>
+                  <input type="email" id="uniqueEmail" placeholder="Your Email" required>
+                </div>
+                <div class="unique-input-group">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M21 6h-2V4c0-1.1-.9-2-2-2h-2V0H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v8H3v2h2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2h2v-2h-2v-8h2V6zm-4 12H7v-8h10v8z"/>
+                  </svg>
+                  <textarea id="uniqueMessage" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="unique-button">Send Message</button>
+              </form>
+            </div>
+          </section>
+          
+
+    </main>
+    
+    <footer id="footer" class="footer">
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">About Us</h3>
+                    <p>Learn anytime, anywhere with our flexible online courses. Enhance your skills with expert instruction and interactive content.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#about-us-section">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blog-section">Blog</a></li>
+                        <!-- <li><a href="#contact-us-section">Contact</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fa fa-envelope"></i> mahmudulabin@gmail.com</li>
+                        <li><i class="fa fa-phone"></i> +880 1780946249</li>
+                        <li><i class="fa fa-map-marker"></i> Dinajpur,5200,Dhaka</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/?lang=en" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 LearnNest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.0/jspdf.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script src="script.js"></script>
+    <script src="./courses.js"></script>
+    <script src="./details.js"></script>
+    <script src="./services.js"></script>
+    <script src="./contact_us.js"></script>
+    <script src="./blog.js"></script>
+    <script src="./team.js"></script>
+    <script src="./reviews.js"></script>
+</body>
+
+</html>

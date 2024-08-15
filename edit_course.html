@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Course</title>
+    <link rel="stylesheet" href="dashboard.css"> 
+</head>
+<body>
+    <header>
+        <h1>Edit This Course</h1>
+        <nav>
+            <a href="teacher_dashboard.html" class="btn">Back to Dashboard</a>
+        </nav>
+    </header>
+    
+    <form id="edit-course-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+        
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required>
+        
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+        <img id="image-preview" src="" alt="Course Image">
+        
+        <input type="hidden" id="course-id" name="course-id">
+        
+        <button class="create_course" type="submit">Update Course</button>
+        <button class="delete" type="button" id="delete-course">Delete Course</button>
+        
+        
+    </form>
+
+    <script src="./courses.js"></script>
+    <script src="edit_course.js"></script> 
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Course</title>
+    <link rel="stylesheet" href="dashboard.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Edit This Course</h1>
+        <nav>
+            <a href="teacher_dashboard.html" class="btn">Back to Dashboard</a>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="edit-course-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+            
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+            
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image">
+            <img id="image-preview" src="" alt="Course Image" style="display:none;">
+            
+            <input type="hidden" id="course-id" name="course-id">
+            
+            <button class="create_course" type="submit">Update Course</button>
+            <button class="delete" type="button" id="delete-course">Delete Course</button>
+        </form>
+    </main>
+
+    <script src="./courses.js"></script>
+    <script src="edit_course.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

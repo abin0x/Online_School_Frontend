@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <!-- Contact us  -->
+
+        <section id="contact-us-section" class="contact-us-section">
+            
+            <div class="container">
+                
+                <h1 class="ch">Contact Teacher</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="problem">Problem:</label>
+                        <textarea id="problem" name="problem" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <div id="formFeedback" class="form-feedback"></div>
+                </form>
+            </div>
+            
+        </section>
+        <script src="./contact_us.js"></script>
+</body>
+</html>

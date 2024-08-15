@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+     <!-- <link rel="stylesheet" href="detail.css"> -->
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./images/final (1).png" alt="Educate Logo"></a>
+                <h1>LearnNest</h1> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Course</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="index.html">Team</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+            <div class="contact-us">
+                <a href="teacher_dashboard.html" class="contact-btn">Become A Teacher</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <div class="course-details-container">
+        <div class="main-content">
+            <div class="course-image">
+                <img id="course-img" src="" alt="Course Image">
+            </div>
+            <h1 id="course-title">Course Title</h1>
+            <div class="course-meta">
+                <span id="course-rating">⭐ (4.7)</span>
+                <span>Lesson 10</span>
+                <span>9.00AM - 01.00 PM</span>
+                <span>Students 20+</span>
+            </div>
+            <div class="course-description">
+                <p id="course-description">Course Description</p>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <div class="sidebar-image">
+                <img id="sidebar-img" alt="Course Imaaage">
+            </div>
+            <div class="course-fee">
+                <p>Course Fee</p>
+                <p><span>$60</span> <s>$120</s></p>
+                <p>29-Day Money-Back Guarantee</p>
+            </div>
+            <button id="enroll-button">Enroll Now</button>
+            <div class="course-details">
+                <p><strong>Start Date:</strong> 4:00 PM - 6:00 PM</p>
+                <p><strong>Enrolled:</strong> 100</p>
+                <p><strong>Lectures:</strong> 80</p>
+                <p><strong>Skill Level:</strong> Basic</p>
+                <p><strong>Class Day:</strong> Monday - Friday</p>
+                <p><strong>Language:</strong> English</p>
+            </div>
+        </aside>
+    </div>
+    <!-- Courses section  -->
+    <section id="courses" class="courses-section ">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our World Class Best Courses</h2>
+                <p>Courses World Class dolor sit consectetur Malesuada sed diam in the aliquam Pathw.</p>
+                <a href="#" class="btn view-all-courses">View All Course</a>
+            </div>
+            
+            <div class="filter-container">
+                <label for="department-filter">Filter by Department:</label>
+                <select id="department-filter">
+                    <option value="">All Departments</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Art And Design">Art And Design</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Business Administration">Business Administration</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <!-- Add more departments as needed -->
+                </select>
+            </div>
+
+            <div id="course-list" class="course-cards">
+                <!-- Courses will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- footer  -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">About Us</h3>
+                    <p>Learn anytime, anywhere with our flexible online courses. Enhance your skills with expert instruction and interactive content.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#about-us-section">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blog-section">Blog</a></li>
+                        <!-- <li><a href="#contact-us-section">Contact</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fa fa-envelope"></i> mahmudulabin@gmail.com</li>
+                        <li><i class="fa fa-phone"></i> +880 1780946249</li>
+                        <li><i class="fa fa-map-marker"></i> Dinajpur,5200,Dhaka</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 educate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="course-details.js"></script>
+    <script src="./courses.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+header {
+    background-color: #00473E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+
+table, th, td {
+    border: 1px solid #887c7c;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-container {
+    width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 80px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(./images/cbg.png);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: black;
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #000000;
+    padding: 40px 0;
+    font-size: 14px;
+    text-align: left;
+    background-image: url(./images/cbg.png);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px 20px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-column p, .footer-column ul, .footer-column a {
+    color: #000000;
+    line-height: 1.8;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #0b63e7;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li a img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons li a img:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #000000;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses List</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Courses List</h1>
+        <a href="create_course.html" class="btn">Create New Course</a>
+        <a href="login.html" class="btn">Login</a>
+        <a id="logout-button" class="btn" onclick="handleLogout()">Logout</a>
+    </header>
+    <main>
+        <h2>All Courses</h2>
+        <table id="courses-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Department</th>
+                    <th>Image</th>
+                    <th>Teacher</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </main>
+    <script src="courses.js"></script>
+    <script src="./edit_course.js"></script>
+    <script src="./auth.js"></script>
+</body>
+</html>
